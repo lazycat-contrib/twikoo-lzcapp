@@ -1,0 +1,18 @@
+package: community.lazycat.app.twikoo
+version: 2.0.9
+name: Twikoo
+description: "Lightweight self-hosted comment system with a simple admin panel."
+min_os_version: "1.5.0"
+homepage: https://github.com/twikoojs/twikoo
+author: twikoojs
+license: MIT
+permissions:
+  required:
+    - net.internet
+locales:
+  zh:
+    name: Twikoo
+    description: "轻量自托管评论系统：简洁的评论前端与后台管理，支持多种部署方式。"
+  en:
+    name: Twikoo
+    description: "Lightweight self-hosted comment system with a simple admin panel."
