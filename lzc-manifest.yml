@@ -6,18 +6,16 @@ application:
       backend: file:///lzcapp/pkg/content/licenses/
     - location: /
       backend: http://twikoo:8080/
-
 services:
   twikoo:
-    # upstream: imaegoo/twikoo:2.0.9
-    image: docker.1ms.run/imaegoo/twikoo:2.0.9
+    # upstream: imaegoo/twikoo:2.0.17
+    image: docker.1ms.run/imaegoo/twikoo:2.0.17
     environment:
       - TWIKOO_DATA=/app/data
       - TWIKOO_THUMBUP=true
       - TZ=Asia/Shanghai
     binds:
       - /lzcapp/var/data:/app/data
-
 usage: |
   Twikoo 是轻量评论系统：给静态博客加评论区，后台可以审核、删除和配置通知。
 

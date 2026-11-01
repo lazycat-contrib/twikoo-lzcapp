@@ -1,5 +1,5 @@
 package: community.lazycat.app.twikoo
-version: 2.0.9
+version: 2.0.17
 name: Twikoo
 description: "Lightweight self-hosted comment system with a simple admin panel."
 min_os_version: "1.5.0"
